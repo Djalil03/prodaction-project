@@ -2,5 +2,8 @@
     "i18n-ally.localesPaths": [
         "public/locales",
         "src/shared/config/routeConfig/i18n"
-    ]
+    ],
+    "scss.validate": false,
+    "stylelint.enable": true,
+    "stylelint.validate": ["css", "scss"]
 }
