@@ -1,4 +1,4 @@
-import { Suspense } from 'react';
+import { Suspense, useEffect } from 'react';
 import { classNames } from 'shared/lib/classNames/classNames';
 import './styles/index.scss';
 import { Navbar } from 'widgets/Navbar';
@@ -8,6 +8,7 @@ import { AppRouter } from './providers/router';
 
 const App = () => {
     const { theme } = useTheme();
+
 
     return (
         <div className={classNames('app', {}, [theme])}>
