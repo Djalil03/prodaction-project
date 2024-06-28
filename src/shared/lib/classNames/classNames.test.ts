@@ -1,6 +1,7 @@
 /* eslint-disable linebreak-style */
 
-import { classNames } from './classNames';
+// import { classNames } from './classNames';
+import { classNames } from "shared/lib/classNames/classNames";
 
 describe('classNames', () => {
     test('with only first param', () => {
