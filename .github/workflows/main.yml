@@ -1,8 +1,8 @@
-name: linting, tisting, building
-on: 
-  push: 
+name: linting, testing, building
+on:
+  push:
     branches: [ main ]
-  pull_request: 
+  pull_request:
     branches: [ main ]
 jobs:
   pipeline:
@@ -12,18 +12,18 @@ jobs:
         node-version: [ 17.x ]
 
     steps:
-      - user: actions/checkout@v2
+      - uses: actions/checkout@v2
       - name: Staring Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v1
-      with:
-        node-version: ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
       - name: install modules
         run: npm install
-      - name: build prodaction project
+      - name: build production project
         run: npm run build:prod
       - name: linting typescript
         run: npm run lint:ts
-      - name: linting scss
+      - name: linting css
         run: npm run lint:scss
       - name: unit testing
         run: npm run test:unit
