@@ -39,9 +39,9 @@ module.exports = {
         'import/no-extraneous-dependencies': 'off',
         'no-underscore-dangle': 'off',
         'no-return-await': 'off',
-        "i18next/no-literal-string": ['error', {markupOnly: true}],
+        "i18next/no-literal-string": ['error', {markupOnly: true, ignoreAttribute: ['data-testid', 'to']}],
         'no-trailing-spaces': 'off',
-        'linebreak-style': 'offs',
+        'linebreak-style': 'off',
     },
     globals: {
         __IS_DEV__: true,
