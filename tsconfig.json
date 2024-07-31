@@ -15,7 +15,8 @@
       "baseUrl": ".",  // для абсолютного импорта
       "paths": {      // для абсолютного импорта
         "*": ["./src/*"]
-      }
+      },
+        "skipLibCheck": true
       },
     "ts-node": {
         "compilerOptions": {
