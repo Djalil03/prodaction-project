@@ -23,7 +23,7 @@ Primary.args = {
 
 export const Dark = Template.bind({});
 Dark.args = {
-    children: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores inventore adipisci quidem saepe vitae esse dolore aliquid dolorem laudantium laborum.',
-    isOpen: true,
+    placeholder: 'Type text dark',
+    value: '321321',
 };
 Dark.decorators = [ThemeDecorator(Theme.DARK)];
