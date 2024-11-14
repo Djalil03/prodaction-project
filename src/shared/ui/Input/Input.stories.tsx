@@ -21,9 +21,9 @@ Primary.args = {
     value: '123123',
 };
 
-export const Dark = Template.bind({});
-Dark.args = {
-    children: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores inventore adipisci quidem saepe vitae esse dolore aliquid dolorem laudantium laborum.',
-    isOpen: true,
-};
-Dark.decorators = [ThemeDecorator(Theme.DARK)];
+// export const Dark = Template.bind({});
+// Dark.args = {
+//     children: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores inventore adipisci quidem saepe vitae esse dolore aliquid dolorem laudantium laborum.',
+//     isOpen: true,
+// };
+// Dark.decorators = [ThemeDecorator(Theme.DARK)];
