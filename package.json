@@ -18,11 +18,11 @@
     "test:unit": "jest --config ./config/jest/jest.config.ts",
     "test:ui": "npx loki test",
     "test:ui:ok": "npx loki approve",
-    "test:ui:ci": "loki --requireReference --reactUri file:C:/Users/Uzer/Desktop/frontCourse/prodaction-project/storybook-static --chromeDockerUseCopy",
+    "test:ui:ci": "loki --requireReference --reactUri http://host.docker.internal:6006 ",
     "test:ui:report": "npm run test:ui:json && npm run test:ui:html",
     "test:ui:json": "node scripts/generate-visual-json-report.js",
     "test:ui:html": "reg-cli --from .loki/report.json --report .loki/report.html",
-    "storybook": "start-storybook -p 40123 -c ./config/storybook",
+    "storybook": "start-storybook -p 6006 -c ./config/storybook",
     "storybook:build": "build-storybook -c ./config/storybook",
     "start-json-server": "json-server --watch db.json --port 8000",
     "prepare": "husky install"
