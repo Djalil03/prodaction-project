@@ -6,6 +6,7 @@
       "target": "es5", // определяет в какую спецификацию будет компилироваться код: для поддержки большинства браузеров
       "jsx": "react-jsx", // позволяет писать стандартные jsx конструкции в реакт компонентах
       "allowJs": true, // компилятор будет обрабатывать не только TS файлы, но и JS файлы
+      "strict": true, // включает сразу несколько флагов для более строгой типизации
       "moduleResolution": "node",
       "esModuleInterop": true, // esModuleInterop позволяет работать с пакетами, которые испльзуют common js как с обычными пакетами с помощью import !!! (require() module.export) = common js / без этого флага импорт не сработает и выдаст undefined
       "allowSyntheticDefaultImports": true, // Если какая либо библиотека не имеет default import 

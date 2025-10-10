@@ -16,7 +16,7 @@
     "lint:scss:fix": "npx stylelint \"**/*.scss\" --fix",
     "tsc": "tsc -v",
     "test:unit": "jest --config ./config/jest/jest.config.ts",
-    "test:ui": "npx loki test --reactUri http://host.docker.internal:6006",
+    "test:ui": "npx loki test --reactUri=http://localhost:6006",
     "test:ui:ok": "npx loki approve",
     "test:ui:ci": "loki --requireReference --reactUri http://host.docker.internal:6006 ",
     "test:ui:report": "npm run test:ui:json && npm run test:ui:html",
