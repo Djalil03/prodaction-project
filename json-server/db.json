@@ -1,39 +1,38 @@
 {
-    "posts": [
-      {
-        "id": "1",
-        "title": "json-server",
-        "userId": "1"
-      },
-      {
-        "id": "2",
-        "title": "json-server",
-        "userId": "2"
-      }
-    ],
-    "comments": [
-      {
-        "id": "1",
-        "body": "some comment",
-        "postId": "1"
-      }
-    ],
-    "users": [
-      {
-        "id": "1",
-        "username": "admin",
-        "password": "123"
-      }
-    ],
-    "profile": { 
-      "first": "Джалиль",
-      "lastname": "Мукашов",
-      "age": 22,
-      "currency": "KZT",
-      "country": "Kazakhstan",
-      "city": "Astana",
-      "username": "admin",
-      "avatar": "https://pic.rutubelist.ru/user/3b/27/3b2758ad5492a76b578f7ee072e4e894.jpg"
+  "posts": [
+    {
+      "id": "1",
+      "title": "json-server",
+      "userId": "1"
+    },
+    {
+      "id": "2",
+      "title": "json-server",
+      "userId": "2"
     }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "body": "some comment",
+      "postId": "1"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "123"
+    }
+  ],
+  "profile": {
+    "first": "Джалиль",
+    "lastname": "Мукашов",
+    "age": 22,
+    "currency": "KZT",
+    "country": "Kazakhstan",
+    "city": "Astana",
+    "username": "admin",
+    "avatar": "https://static.wikia.nocookie.net/onepiece/images/4/4f/Portgas_D._Ace_Anime_Infobox.png"
   }
-  
+}
