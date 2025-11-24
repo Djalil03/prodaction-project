@@ -19,7 +19,9 @@
       "img": "https://static.vecteezy.com/system/resources/previews/027/127/463/non_2x/javascript-logo-javascript-icon-transparent-free-png.png",
       "views": 1022,
       "createdAt": "13.11.2025",
-      "type": [ "IT" ],
+      "type": [
+        "IT"
+      ],
       "blocks": [
         {
           "id": "1",
@@ -100,6 +102,24 @@
       "text": "some comment 3",
       "articleId": "1",
       "userId": "1"
+    },
+    {
+      "articleId": "1",
+      "userId": "1",
+      "text": "Тестовый первый коммент",
+      "id": "G8wgjNk"
+    },
+    {
+      "articleId": "1",
+      "userId": "2",
+      "text": "Тестовый второй коммент",
+      "id": "tuwF4ID"
+    },
+    {
+      "articleId": "1",
+      "userId": "2",
+      "text": "Тестовый третий коммент",
+      "id": "4uxr0wG"
     }
   ],
   "users": [
@@ -115,17 +135,31 @@
       "username": "user",
       "password": "123",
       "role": "USER",
-      "avatar": "https://static.wikia.nocookie.net/onepiece/images/c/c2/Sabo_Anime_Infobox.png/revision/latest/scale-to-width-down/1200?cb=20230804035141"
+      "avatar": "https://static.wikia.nocookie.net/onepiece/images/c/c2/Sabo_Anime_Infobox.png"
     }
   ],
-  "profile": {
-    "first": "Джалиль",
-    "lastname": "Мукашов",
-    "age": 22,
-    "currency": "KZT",
-    "country": "Kazakhstan",
-    "city": "Astana",
-    "username": "admin",
-    "avatar": "https://static.wikia.nocookie.net/onepiece/images/4/4f/Portgas_D._Ace_Anime_Infobox.png"
-  }
+  "profile": [
+    {
+      "id": "1",
+      "first": "Джалиль",
+      "lastname": "Мукашов",
+      "age": 22,
+      "currency": "KZT",
+      "country": "Kazakhstan",
+      "city": "Astana",
+      "username": "lucci",
+      "avatar": "https://static.wikia.nocookie.net/onepiece/images/4/4f/Portgas_D._Ace_Anime_Infobox.png"
+    },
+    {
+      "id": "2",
+      "first": "Даниал",
+      "lastname": "Кистауов",
+      "age": 22,
+      "currency": "KZT",
+      "country": "Kazakhstan",
+      "city": "Astana",
+      "username": "danikbeyabi",
+      "avatar": "https://static.wikia.nocookie.net/onepiece/images/c/c2/Sabo_Anime_Infobox.png"
+    }
+  ]
 }

@@ -5,6 +5,7 @@ import { updateProfileData } from './updateProfileData';
 import { ValidateProfileErrors } from '../../types/profile';
 
 const profileValue = {
+    id: '1',
     first: 'Джалиль',
     lastname: 'Мукашов',
     age: 22,

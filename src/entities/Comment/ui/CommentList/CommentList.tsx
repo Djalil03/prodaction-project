@@ -15,6 +15,16 @@ interface CommentListProps {
 export const CommentList = ({ className, comments, isLoading }: CommentListProps) => {
     const { t } = useTranslation();
 
+    if (isLoading) {
+        return (
+            <div className={classNames(cls.CommentList, {}, [className])}>
+                <CommentCard className={cls.comment} isLoading />
+                <CommentCard className={cls.comment} isLoading />
+                <CommentCard className={cls.comment} isLoading />
+            </div>
+        );
+    }
+
     return (
         <div className={classNames(cls.CommentList, {}, [className])}>
             {
