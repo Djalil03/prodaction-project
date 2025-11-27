@@ -23,6 +23,7 @@ const Template: ComponentStory<typeof ArticleDetailsPage> = () => <ArticleDetail
 const article: Article = {
     id: '1',
     title: 'Javascript news',
+    user: { id: '1', username: 'Lucci' },
     subtitle: 'Что нового в JS за этот год?',
     img: 'https://static.vecteezy.com/system/resources/previews/027/127/463/non_2x/javascript-logo-javascript-icon-transparent-free-png.png',
     views: 1022,

@@ -23,7 +23,6 @@ export const ArticleTextBlockComponent = memo(({ className, block }: ArticleText
             )}
             {block.paragraphs.map((paragraph) => (
                 <Text 
-                    // eslint-disable-next-line react/no-array-index-key
                     key={paragraph} 
                     text={paragraph} 
                     className={cls.paragraph}
